@@ -58,7 +58,7 @@
                 <div class="flex items-center">
                     <i
                         class="fa-solid fa-arrow-right text-[#1C1C1C]  -rotate-45 bg-rinterio-primary rounded-full p-2 "></i>
-                    <a class="font-bold text-3xl ml-2">Rinterio</a>
+                    <a class="font-extrabold text-4xl ml-2 text-title-primary">Rinterio</a>
                 </div>
                 <!-- navbar center -->
                 <div class="navbar-center hidden lg:flex">
@@ -73,7 +73,7 @@
                 <!-- navbar right -->
                 <div class="flex items-center">
                     <!-- navbar right main content -->
-                    <div class="hidden md:block md:flex md:items-center md:gap-4">
+                    <div class="hidden  md:flex md:items-center md:gap-4">
                         <!-- search icon -->
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor"
@@ -89,7 +89,7 @@
                                 d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                         </svg>
                         <div>
-                            <a class="btn bg-rinterio-primary bg-rinterio-primary rounded-full">Book Consult <i
+                            <a class="btn bg-rinterio-primary text-[rgb(28,28,28)] rounded-full font-extrabold text-xl">Book Consult <i
                                     class="fa-solid fa-arrow-right text-white -rotate-45 bg-[rgb(28,28,28)] rounded-full p-2 "></i></a>
                         </div>
                     </div>
@@ -397,14 +397,19 @@
                 <!-- form -->
                 <form action="#" class="md:px-24">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
-                        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full " required />
-                        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full " required />
-                        <input type="number" placeholder="Phone Number*" class="input input-bordered rounded-full  " required />
-                        <input type="email" placeholder="Email*" class="input input-bordered rounded-full  " required/>
+                        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full "
+                            required />
+                        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full "
+                            required />
+                        <input type="number" placeholder="Phone Number*" class="input input-bordered rounded-full  "
+                            required />
+                        <input type="email" placeholder="Email*" class="input input-bordered rounded-full  " required />
                         <textarea placeholder="Write your message here"
                             class="textarea textarea-bordered  text-base md:col-span-2 h-[240px] rounded-3xl"></textarea>
                         <div class="md:col-span-2 align-center">
-                            <a href="#" class="btn bg-rinterio-primary bg-[rgb(28,28,28)] text-xl font-extrabold rounded-full w-[100%]">Send Mail <i
+                            <a href="#"
+                                class="btn bg-rinterio-primary bg-[rgb(28,28,28)] text-xl font-extrabold rounded-full w-[100%]">Send
+                                Mail <i
                                     class="fa-solid fa-arrow-right text-white -rotate-45 bg-[rgb(28,28,28)] rounded-full p-2 "
                                     aria-hidden="true"></i></a>
                         </div>
@@ -417,8 +422,31 @@
     </main>
 
     <!-- footer section -->
-    <footer>
-
+    <footer class="bg-[#1C1C1C]">
+        <div class="max-w-screen-xl mx-auto py-20 px-2">
+            <div class="flex flex-col items-center">
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-arrow-right text-[#1C1C1C]  -rotate-45 bg-rinterio-primary rounded-full p-2 "
+                        aria-hidden="true"></i>
+                    <a class="font-bold text-3xl ml-2 text-[rgb(233,233,233)]">Rinterio</a>
+                </div>
+                <p class="text-center text-des-primary font-medium mb-12">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, <br
+                        class="hidden md:block">featuring weathered wood, sleek metal accents.
+                </p>
+                <ul class="flex flex-col md:flex-row gap-8 md:gap-20 lg:gap-32 px-1 items-center text-[#E9E9E9] mb-10 hover:cursor-pointer">
+                    <li class="hover:cursor-pointer"><a>Home</a></li>
+                    <li class="hover:cursor-pointer"><a>Services</a></li>
+                    <li class="hover:cursor-pointer"><a>Portfolio</a></li>
+                    <li class="hover:cursor-pointer"><a>Blogs</a></li>
+                    <li class="hover:cursor-pointer"><a>Contact Us</a></li>
+                </ul>
+                <div>
+                    <a class="btn bg-rinterio-primary text-[rgb(28,28,28)]  rounded-full font-extrabold text-xl">Book Consult <i
+                            class="fa-solid fa-arrow-right text-white -rotate-45 bg-[rgb(28,28,28)] rounded-full p-2 "></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
